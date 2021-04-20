@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --vermelho: red;
+    --preto: black;
+}
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: white;
+    
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .logo{
+    color: var(--vermelho);
+    font-size: "Arial black", Times;
+    font-size: 2.2em;
+    margin-left: 10px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+/* Filme principal */
+.filmePost{
+    height: 400px;
+    font-size: 1.2em;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('../img/supers.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filmePost .descricao{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.titulo{
+    font-size: 2.3em;
+    margin-top: 10%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.button {
+    background-color: rgba(0, 0, 0,.50);
+    border: none;;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+}
+.button i{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.filmePost .container{
+    width: 60%;
+}
+.boxFilmes{
+    height: 239px;
+    width: 239px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
